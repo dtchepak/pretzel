@@ -48,7 +48,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BakeOperation.cs" />
     <Compile Include="Extensions\YamlExtensions.cs" />
+    <Compile Include="IBakingStep.cs" />
+    <Compile Include="Oven.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
